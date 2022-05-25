@@ -40,7 +40,7 @@ a{
 .off-white {background-color:#FAF9F6}
 
 
-.bg-box{
+.section{
   width:100%;
   box-sizing:border-box!important;
   margin:0;
@@ -52,16 +52,6 @@ a{
   box-sizing:border-box!important;
 }
 
-.top-box{
-  text-align:center;
-  font-size:3vh;
-  background-color:#373737;
-  color:#373737!important;
-  padding:2vh 0;
-    box-sizing:border-box!important;
-
-}
-
 .contain p {
   text-align:left;
   margin:02vh auto;
@@ -69,19 +59,24 @@ a{
   max-width:42ch!important;
 }
 
+
+.top-box{
+  text-align:center;
+  font-size:3vh;
+  background-color:#373737;
+  color:#373737!important;
+  padding:2vh 0;
+  box-sizing:border-box!important;
+}
+
+.top-box div {text-align:center;}
+
 .intro-box{
   width:100%;
   box-sizing:border-box!important;
   margin:0 auto;
   padding:1% ;
-
-
 }
-
-
-
-
-
 
 .subject {
   font-weight:bold;
@@ -91,9 +86,12 @@ a{
   text-align:center;
   padding:2.5vh 1vw !important;
 }
+
 .name{
   color:whitesmoke!important;
-    padding:5% 10%;}
+  padding:5vh!important;
+  font-size:2.2vh!important;
+  }
 .name span {
     border-bottom:1px solid #f9f6f2;
     padding-bottom:1vh!important;
@@ -107,16 +105,15 @@ a{
   color:#bdc3c7;
   font-style:italic;
 }
-  .headline span {text-decoration:underline}
 
-
+.headline span {text-decoration:underline}
 
 .subj-txt {font-size:90%}
+
 .pro-bg {
   font-family:'ibm plex sans', sans-serif!important;
-    font-weight:thin;
-    font-size:1.5vh!important;
-    text-align:center;
+    font-weight:bold;
+    text-align:center!important;
     text-transform:uppercase;
     letter-spacing:3px;
   }
@@ -128,60 +125,56 @@ a{
 <body pale-blue>
   <div class="top-box">
 
-    <div class="name"
-      style="padding:5vh!important;
-        font-size:2.2vh!important;">
-        <span>
-        Elizabeth B. Knight, L.C.S.W.</span>
+    <div class="name">
+        <span>Elizabeth B. Knight, L.C.S.W.</span>
     </div>
 
-    <div style="text-align:center;">
+    <div>
         <img style="border-radius:50%;"
         src="eb-knight-blue.png"
         alt="Elizabeth B. Knight, L.C.S.W., Houston"/>
     </div>
 
     <div class="headline">
-      <div class="contain">Helping people through difficult life transitions
-          </div>
+      <div class="contain">
+        Helping people through difficult life transitions
+      </div>
     </div>
   </div>
 
 
   <div class="intro-box off-white">
       <div class="contain">
-    <p ><b>Elizabeth Knight</b> is a long-time Houston resident who has been practicing psychotherapy for 35-plus years.  </p>
-    <p >As a clinician and an educator, her areas of expertise are group dynamics, human sexuality and women's issues.</p>
-    <p >Elizabeth is a <i>Distinguished Fellow</i> of the <b>American Group Psychotherapy Association</b> and served
+        <p ><b>Elizabeth Knight</b> is a long-time Houston resident who has been practicing psychotherapy for 35-plus years.  </p>
+        <p >As a clinician and an educator, her areas of expertise are group dynamics, human sexuality and women's issues.</p>
+        <p >Elizabeth is a <i>Distinguished Fellow</i> of the <b>American Group Psychotherapy Association</b> and served
         as <i>President</i> from 2006-2008.  She also served at the <i>President</i> of the <b>Houston Group Psychotherapy Society</b></p>
-    <p >Elizabeth serves as an Assistant Professor, Department of Psychiatry <b>Baylor College of Medicine</b>,
+        <p >Elizabeth serves as an Assistant Professor, Department of Psychiatry <b>Baylor College of Medicine</b>,
         Houston.</p>
-    <p > She is also an Assistant Professor Department of Psychiatry at the <b>University of Texas
+        <p > She is also an Assistant Professor Department of Psychiatry at the <b>University of Texas
         Health and Science Center</b> at Houston.</p>
-      <p >After graduating <b>Stanford</b> with a degree in psychology, Elizabeth earned a Master's degree in Social Work from the <b>University of Houston</b>.</p>
-
-      <p style="
-        font-style:italic;
-        margin:0 auto!important;
-        padding:1vh;
-        border-top:3px solid #222222;
-        text-align:left;
+        <p >After graduating <b>Stanford</b> with a degree in psychology, Elizabeth earned a Master's degree in Social Work from the <b>University of Houston</b>.</p>
+        <p style="font-style:italic;
+          margin:0 auto!important;
+          padding:1vh;
+          border-top:3px solid #222222;
+          text-align:left;
           border-bottom:1px solid grey;
-        color:#444444">
-        To inquire further, please call 713-974-6590
-      </p>
-    </div>
+          color:#444444">To inquire further, please call 713-974-6590
+        </p>
       </div>
-  </div>
-  <div class="bg-box mid-sand"
-  style="margin-top:2vh!important;">
-    <div class="contain">
-          <p class="pro-bg">
-        Professional Background</p>
     </div>
-  </div>
 
-  <div class="bg-box light-sand">
+    <div class="section mid-sand"
+      style="margin-top:2vh!important;">
+      <div class="contain">
+        <p class="pro-bg">
+            <span style="font-size:1.33vh!important;">Professional Background</span>
+        </p>
+      </div>
+    </div>
+
+  <div class="section light-sand">
     <div class="contain">
       <p class="subject"><span>AREAS OF SPECIALIZATION</span></p>
 
@@ -189,7 +182,7 @@ a{
       </p>
   </div>
   </div>
-  <div class="bg-box mid-sand">
+  <div class="section mid-sand">
       <div class="contain">
         <p class="subject"><span>FACULTY POSITIONS</span></p>
       <p><b>American Group Psychotherapy Association</b>, <i>Distinguished Fellow, President</i></p>
@@ -202,7 +195,7 @@ a{
   </div>
 
 
-  <div class="bg-box light-sand">
+  <div class="section light-sand">
       <div class="contain">
           <p class="subject"><span>PUBLICATIONS</span></p>
 <div class="subj-txt">
@@ -216,32 +209,30 @@ a{
   </div>
 
 
-  <div class="bg-box mid-sand" >
+  <div class="section mid-sand" >
         <div class="contain" style="padding:2.5vh 8vw;
         line-height:210%!important">
           To schedule an appointment,<br /> please call <b>713-974-6590</b>.<br /><br />Elizabeth B. Knight, LCSW <br /> 3131 Eastside Street, Suite 415<br />Houston, TX 77098 | Fax: 713-974-6591</div>
 
 </div>
-        <div class="bg-box light-sand"
+        <div class="section light-sand"
           style="
             text-align:left;
             border-bottom:solid 12vh #373737 !important;">
   <div class="contain">
-          <p class="subject"><span>DOWNLOADS</span></P>
-
-            <p class="contain" style="padding-left:5vw">
-
-            <p>
-              <a href="Office-Policies-Knight.pdf">
-              Office Policy</a></p>
-
-          <p>
-            <a href="Information-Form-Knight.pdf">
-                Information Form</a></p>
-              </p>
-        </div>
-      </div>
+    <p class="subject"><span>DOWNLOADS</span></P>
+      <p class="contain" style="padding-left:5vw">
+        <a href="Office-Policies-Knight.pdf">
+          Office Policy
+        </a>
+        <br /><br />
+        <a href="Information-Form-Knight.pdf">
+                Information Form
+        </a>
+      </p>
     </div>
   </div>
+</div>
+</div>
 </body>
 </html>
